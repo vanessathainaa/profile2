@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio - Projetos</title>
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
@@ -16,10 +17,12 @@
         }
     </style>
 </head>
+
 <body class="bg-dark text-white">
 
     <!-- Header / Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black shadow border-bottom border-secondary border-opacity-25 sticky-top">
+    <nav
+        class="navbar navbar-expand-lg navbar-dark bg-black shadow border-bottom border-secondary border-opacity-25 sticky-top">
         <div class="container">
             <a class="navbar-brand fw-bold text-primary" href="index.html">DevPortfolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -36,31 +39,39 @@
     </nav>
 
     <!-- Seção Hero Interativa do Portfólio -->
-    <section class="position-relative overflow-hidden py-5 border-bottom border-primary border-opacity-25" style="background: radial-gradient(circle at 50% 50%, rgba(13, 110, 253, 0.12) 0%, rgba(0,0,0,1) 100%);">
+    <section class="position-relative overflow-hidden py-5 border-bottom border-primary border-opacity-25"
+        style="background: radial-gradient(circle at 50% 50%, rgba(13, 110, 253, 0.12) 0%, rgba(0,0,0,1) 100%);">
         <div class="container position-relative text-center py-4 z-1">
-            <h1 class="display-4 fw-bolder mb-2 text-white">Galeria de <span class="text-primary" style="background: linear-gradient(45deg, #0d6efd, #0dcaf0); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Projetos</span></h1>
-            <p class="lead text-light opacity-75 max-width-600 mx-auto">Confira abaixo os trabalhos, atividades práticas e soluções desenvolvidas ao longo da minha trajetória acadêmica e tecnológica.</p>
+            <h1 class="display-4 fw-bolder mb-2 text-white">Galeria de <span class="text-primary"
+                    style="background: linear-gradient(45deg, #0d6efd, #0dcaf0); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Projetos</span>
+            </h1>
+            <p class="lead text-light opacity-75 max-width-600 mx-auto">Confira abaixo os trabalhos, atividades práticas
+                e soluções desenvolvidas ao longo da minha trajetória acadêmica e tecnológica.</p>
         </div>
     </section>
 
     <!-- Conteúdo do Portfólio -->
     <div class="container py-5">
         <!-- Carrossel de Projetos -->
-        <div id="portfolioCarousel" class="carousel slide mx-auto shadow-lg rounded" style="max-width: 850px;" data-bs-ride="carousel">
+        <div id="portfolioCarousel" class="carousel slide mx-auto shadow-lg rounded" style="max-width: 850px;"
+            data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true"></button>
                 <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="1"></button>
             </div>
-            
+
             <div class="carousel-inner rounded border border-secondary border-opacity-50">
                 <!-- Slide 1 -->
                 <div class="carousel-item active">
                     <div class="card bg-dark text-white border-0">
-                        <img src="./portfolio/p1.png" class="d-block w-100 img-fluid" style="object-fit: cover;" alt="Projeto 1">
+                        <img src="./portfolio/p1.png" class="d-block w-100 img-fluid" style="object-fit: cover;"
+                            alt="Projeto 1">
                         <div class="card-body text-center p-4 bg-black bg-opacity-75">
                             <h5 class="card-title fs-4 fw-bold text-white mb-3">Plataforma E-commerce Responsiva</h5>
                             <!-- Botão para acionar Modal 1 -->
-                            <button type="button" class="btn btn-primary fw-semibold px-4 shadow-sm" data-bs-toggle="modal" data-bs-target="#modalProjeto1">
+                            <button type="button" class="btn btn-primary fw-semibold px-4 shadow-sm"
+                                data-bs-toggle="modal" data-bs-target="#modalProjeto1">
                                 Abrir Detalhes
                             </button>
                         </div>
@@ -70,11 +81,14 @@
                 <!-- Slide 2 -->
                 <div class="carousel-item">
                     <div class="card bg-dark text-white border-0">
-                        <img src="./portfolio/p2.png" class="d-block w-100 img-fluid" style="object-fit: cover;" alt="Projeto 2">
+                        <img src="./portfolio/p2.png" class="d-block w-100 img-fluid" style="object-fit: cover;"
+                            alt="Projeto 2">
                         <div class="card-body text-center p-4 bg-black bg-opacity-75">
-                            <h5 class="card-title fs-4 fw-bold text-white mb-3">Dashboard de Indicadores Industriais</h5>
+                            <h5 class="card-title fs-4 fw-bold text-white mb-3">Dashboard de Indicadores Industriais
+                            </h5>
                             <!-- Botão para acionar Modal 2 -->
-                            <button type="button" class="btn btn-primary fw-semibold px-4 shadow-sm" data-bs-toggle="modal" data-bs-target="#modalProjeto2">
+                            <button type="button" class="btn btn-primary fw-semibold px-4 shadow-sm"
+                                data-bs-toggle="modal" data-bs-target="#modalProjeto2">
                                 Abrir Detalhes
                             </button>
                         </div>
@@ -84,11 +98,14 @@
                 <!-- Slide 3 -->
                 <div class="carousel-item">
                     <div class="card bg-dark text-white border-0">
-                        <img src="./portfolio/p3.png" class="d-block w-100 img-fluid" style="object-fit: cover;" alt="Projeto 3">
+                        <img src="./portfolio/p3.png" class="d-block w-100 img-fluid" style="object-fit: cover;"
+                            alt="Projeto 3">
                         <div class="card-body text-center p-4 bg-black bg-opacity-75">
-                            <h5 class="card-title fs-4 fw-bold text-white mb-3">Dashboard de Indicadores Industriais</h5>
+                            <h5 class="card-title fs-4 fw-bold text-white mb-3">Dashboard de Indicadores Industriais
+                            </h5>
                             <!-- Botão para acionar Modal 3 -->
-                            <button type="button" class="btn btn-primary fw-semibold px-4 shadow-sm" data-bs-toggle="modal" data-bs-target="#modalProjeto3">
+                            <button type="button" class="btn btn-primary fw-semibold px-4 shadow-sm"
+                                data-bs-toggle="modal" data-bs-target="#modalProjeto3">
                                 Abrir Detalhes
                             </button>
                         </div>
@@ -98,11 +115,14 @@
                 <!-- Slide 4 -->
                 <div class="carousel-item">
                     <div class="card bg-dark text-white border-0">
-                        <img src="./portfolio/p4.png" class="d-block w-100 img-fluid" style="object-fit: cover;" alt="Projeto 4">
+                        <img src="./portfolio/p4.png" class="d-block w-100 img-fluid" style="object-fit: cover;"
+                            alt="Projeto 4">
                         <div class="card-body text-center p-4 bg-black bg-opacity-75">
-                            <h5 class="card-title fs-4 fw-bold text-white mb-3">Dashboard de Indicadores Industriais</h5>
+                            <h5 class="card-title fs-4 fw-bold text-white mb-3">Dashboard de Indicadores Industriais
+                            </h5>
                             <!-- Botão para acionar Modal 4 -->
-                            <button type="button" class="btn btn-primary fw-semibold px-4 shadow-sm" data-bs-toggle="modal" data-bs-target="#modalProjeto4">
+                            <button type="button" class="btn btn-primary fw-semibold px-4 shadow-sm"
+                                data-bs-toggle="modal" data-bs-target="#modalProjeto4">
                                 Abrir Detalhes
                             </button>
                         </div>
@@ -112,24 +132,29 @@
                 <!-- Slide 5 -->
                 <div class="carousel-item">
                     <div class="card bg-dark text-white border-0">
-                        <img src="./portfolio/p5.png" class="d-block w-100 img-fluid" style="object-fit: cover;" alt="Projeto 5">
+                        <img src="./portfolio/p5.png" class="d-block w-100 img-fluid" style="object-fit: cover;"
+                            alt="Projeto 5">
                         <div class="card-body text-center p-4 bg-black bg-opacity-75">
-                            <h5 class="card-title fs-4 fw-bold text-white mb-3">Dashboard de Indicadores Industriais</h5>
+                            <h5 class="card-title fs-4 fw-bold text-white mb-3">Dashboard de Indicadores Industriais
+                            </h5>
                             <!-- Botão para acionar Modal 5 -->
-                            <button type="button" class="btn btn-primary fw-semibold px-4 shadow-sm" data-bs-toggle="modal" data-bs-target="#modalProjeto5">
+                            <button type="button" class="btn btn-primary fw-semibold px-4 shadow-sm"
+                                data-bs-toggle="modal" data-bs-target="#modalProjeto5">
                                 Abrir Detalhes
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
             <!-- Controles do carrossel -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel"
+                data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Anterior</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel"
+                data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Próximo</span>
             </button>
@@ -143,10 +168,14 @@
             <div class="modal-content bg-dark text-white border border-secondary">
                 <div class="modal-header border-bottom border-secondary border-opacity-25 bg-black bg-opacity-50">
                     <h5 class="modal-title fs-4 fw-bold text-primary">E-commerce Responsivo</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
                 </div>
                 <div class="modal-body p-4">
-                    <p class="fs-6 text-light opacity-75">Uma interface de loja virtual construída com abordagem mobile-first. A aplicação foca na semântica estrutural e utiliza utilitários nativos de grid, espaçamentos e tipografia para entregar um fluxo de checkout limpo e acessível em qualquer tamanho de monitor ou celular.</p>
+                    <p class="fs-6 text-light opacity-75">Uma interface de loja virtual construída com abordagem
+                        mobile-first. A aplicação foca na semântica estrutural e utiliza utilitários nativos de grid,
+                        espaçamentos e tipografia para entregar um fluxo de checkout limpo e acessível em qualquer
+                        tamanho de monitor ou celular.</p>
                 </div>
                 <div class="modal-footer border-top border-secondary border-opacity-25">
                     <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Fechar</button>
@@ -161,10 +190,14 @@
             <div class="modal-content bg-dark text-white border border-secondary">
                 <div class="modal-header border-bottom border-secondary border-opacity-25 bg-black bg-opacity-50">
                     <h5 class="modal-title fs-4 fw-bold text-primary">Dashboard de Indicadores</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
                 </div>
                 <div class="modal-body p-4">
-                    <p class="fs-6 text-light opacity-75">Painel operacional projetado para análise de dados complexos em tempo real. O ecossistema visual separa os setores críticos através de grupos de cartões estruturados, aplicando conceitos modernos de design de dados e paletas de alto contraste voltadas a ambientes corporativos.</p>
+                    <p class="fs-6 text-light opacity-75">Painel operacional projetado para análise de dados complexos
+                        em tempo real. O ecossistema visual separa os setores críticos através de grupos de cartões
+                        estruturados, aplicando conceitos modernos de design de dados e paletas de alto contraste
+                        voltadas a ambientes corporativos.</p>
                 </div>
                 <div class="modal-footer border-top border-secondary border-opacity-25">
                     <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Fechar</button>
@@ -179,10 +212,14 @@
             <div class="modal-content bg-dark text-white border border-secondary">
                 <div class="modal-header border-bottom border-secondary border-opacity-25 bg-black bg-opacity-50">
                     <h5 class="modal-title fs-4 fw-bold text-primary">Dashboard de Indicadores</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
                 </div>
                 <div class="modal-body p-4">
-                    <p class="fs-6 text-light opacity-75">Painel operacional projetado para análise de dados complexos em tempo real. O ecossistema visual separa os setores críticos através de grupos de cartões estruturados, aplicando conceitos modernos de design de dados e paletas de alto contraste voltadas a ambientes corporativos.</p>
+                    <p class="fs-6 text-light opacity-75">Painel operacional projetado para análise de dados complexos
+                        em tempo real. O ecossistema visual separa os setores críticos através de grupos de cartões
+                        estruturados, aplicando conceitos modernos de design de dados e paletas de alto contraste
+                        voltadas a ambientes corporativos.</p>
                 </div>
                 <div class="modal-footer border-top border-secondary border-opacity-25">
                     <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Fechar</button>
@@ -197,10 +234,14 @@
             <div class="modal-content bg-dark text-white border border-secondary">
                 <div class="modal-header border-bottom border-secondary border-opacity-25 bg-black bg-opacity-50">
                     <h5 class="modal-title fs-4 fw-bold text-primary">Dashboard de Indicadores</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
                 </div>
                 <div class="modal-body p-4">
-                    <p class="fs-6 text-light opacity-75">Painel operacional projetado para análise de dados complexos em tempo real. O ecossistema visual separa os setores críticos através de grupos de cartões estruturados, aplicando conceitos modernos de design de dados e paletas de alto contraste voltadas a ambientes corporativos.</p>
+                    <p class="fs-6 text-light opacity-75">Painel operacional projetado para análise de dados complexos
+                        em tempo real. O ecossistema visual separa os setores críticos através de grupos de cartões
+                        estruturados, aplicando conceitos modernos de design de dados e paletas de alto contraste
+                        voltadas a ambientes corporativos.</p>
                 </div>
                 <div class="modal-footer border-top border-secondary border-opacity-25">
                     <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Fechar</button>
@@ -215,10 +256,14 @@
             <div class="modal-content bg-dark text-white border border-secondary">
                 <div class="modal-header border-bottom border-secondary border-opacity-25 bg-black bg-opacity-50">
                     <h5 class="modal-title fs-4 fw-bold text-primary">Dashboard de Indicadores</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
                 </div>
                 <div class="modal-body p-4">
-                    <p class="fs-6 text-light opacity-75">Painel operacional projetado para análise de dados complexos em tempo real. O ecossistema visual separa os setores críticos através de grupos de cartões estruturados, aplicando conceitos modernos de design de dados e paletas de alto contraste voltadas a ambientes corporativos.</p>
+                    <p class="fs-6 text-light opacity-75">Painel operacional projetado para análise de dados complexos
+                        em tempo real. O ecossistema visual separa os setores críticos através de grupos de cartões
+                        estruturados, aplicando conceitos modernos de design de dados e paletas de alto contraste
+                        voltadas a ambientes corporativos.</p>
                 </div>
                 <div class="modal-footer border-top border-secondary border-opacity-25">
                     <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Fechar</button>
@@ -227,14 +272,14 @@
         </div>
     </div>
 
-<!-- Footer com Logos em Imagem Direta - Cores Originais Fixas -->
+    <!-- Footer com Logos em Imagem Direta - Cores Originais Fixas -->
     <footer class="bg-black text-center py-4 mt-5 border-top border-secondary border-opacity-25 fixed-bottom">
         <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
 
-            <!-- Texto de Direitos Autorais -->
             <p class="mb-0 fs-6 text-light opacity-50">
-                © 2026 - Desenvolvido com foco e performance através do Bootstrap 5.
+                © 2026 - Desenvolvido com foco e performance por Vanessa Conceição - SENAI.
             </p>
+
 
             <!-- Redes Sociais com Imagens SVG e Cores Fixas Individuais -->
             <div class="d-flex gap-4 align-items-center">
@@ -297,4 +342,5 @@
     </style>
 
 </body>
+
 </html>
